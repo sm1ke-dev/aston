@@ -1,3 +1,3 @@
-const HelloWorld = () => console.log("Привет, мир!");
+const HelloWorld = (text) => console.log(text);
 
-HelloWorld();
+HelloWorld("Привет, мир!");
